@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 const Carousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,8 +29,10 @@ const Carousel: React.FC = () => {
               index === currentIndex ? "opacity-100" : "opacity-0"
             }`}
           >
-            <img
+            <Image
               src={image}
+              layout="fill"
+              objectFit="contain"
               className="block h-full object-cover justify-self-center"
               alt={`Slide ${index + 1}`}
             />

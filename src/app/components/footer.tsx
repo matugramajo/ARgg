@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { X, Github, Discord, Linkedin } from "./logos";
 
 const Footer: React.FC = () => {
@@ -7,10 +8,19 @@ const Footer: React.FC = () => {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
-            href="https://flowbite.com/"
+            href="#"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <img src="/Logo-ARgg-2.png" className="h-10" alt="Flowbite Logo" />
+            <div className="relative h-14 w-28">
+              <Image
+                src="/Logo-ARgg-2.png"
+                layout="responsive"
+                width={100}
+                height={50}
+                objectFit="contain"
+                alt="Flowbite Logo"
+              />
+            </div>
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-400">
             <li>

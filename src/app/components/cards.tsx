@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Cards: React.FC = () => {
   return (
@@ -14,12 +15,22 @@ const Cards: React.FC = () => {
               <div>Counter-Strike 2</div>
             </div>
             <div className="grid grid-cols-3 justify-between py-4">
-              <div className="justify-self-end">
-                <img src="/Logo Shinden.png" className="h-16" alt="Logo ARgg" />
+              <div className="justify-self-end relative w-16 h-16">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Shinden.png"
+                  alt="Logo ARgg"
+                />
               </div>
               <div className="justify-self-center content-center">VS</div>
-              <div className="justify-self-start">
-                <img src="/Logo Velox.png" className="h-16" alt="Logo ARgg" />
+              <div className="justify-self-start relative w-16 h-16">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Velox.png"
+                  alt="Logo ARgg"
+                />
               </div>
             </div>
             <div className="px-2 text-base text-[#a1a1a1]">BO3</div>
@@ -30,14 +41,25 @@ const Cards: React.FC = () => {
               <div>Counter-Strike 2</div>
             </div>
             <div className="grid grid-cols-3 justify-between py-4">
-              <div className="justify-self-end">
-                <img src="/Logo Shinden.png" className="h-16" alt="Logo ARgg" />
+              <div className="justify-self-end relative w-16 h-16">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Shinden.png"
+                  alt="Logo ARgg"
+                />
               </div>
               <div className="justify-self-center content-center">VS</div>
-              <div className="justify-self-start">
-                <img src="/Logo Velox.png" className="h-16" alt="Logo ARgg" />
+              <div className="justify-self-start relative w-16 h-16">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Velox.png"
+                  alt="Logo ARgg"
+                />
               </div>
             </div>
+
             <div className="px-2 text-base text-[#a1a1a1]">BO3</div>
           </div>
           <div className="border-b border-b-[#9199E1] py-2">
@@ -46,12 +68,22 @@ const Cards: React.FC = () => {
               <div>Counter-Strike 2</div>
             </div>
             <div className="grid grid-cols-3 justify-between py-4">
-              <div className="justify-self-end">
-                <img src="/Logo Shinden.png" className="h-16" alt="Logo ARgg" />
+              <div className="justify-self-end relative w-16 h-16">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Shinden.png"
+                  alt="Logo ARgg"
+                />
               </div>
               <div className="justify-self-center content-center">VS</div>
-              <div className="justify-self-start">
-                <img src="/Logo Velox.png" className="h-16" alt="Logo ARgg" />
+              <div className="justify-self-start relative w-16 h-16">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Velox.png"
+                  alt="Logo ARgg"
+                />
               </div>
             </div>
             <div className="px-2 text-base text-[#a1a1a1]">BO3</div>
@@ -62,14 +94,25 @@ const Cards: React.FC = () => {
               <div>Counter-Strike 2</div>
             </div>
             <div className="grid grid-cols-3 justify-between py-4">
-              <div className="justify-self-end">
-                <img src="/Logo Shinden.png" className="h-16" alt="Logo ARgg" />
+              <div className="justify-self-end relative w-16 h-16">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Shinden.png"
+                  alt="Logo ARgg"
+                />
               </div>
               <div className="justify-self-center content-center">VS</div>
-              <div className="justify-self-start">
-                <img src="/Logo Velox.png" className="h-16" alt="Logo ARgg" />
+              <div className="justify-self-start relative w-16 h-16">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Velox.png"
+                  alt="Logo ARgg"
+                />
               </div>
             </div>
+
             <div className="px-2 text-base text-[#a1a1a1]">BO3</div>
           </div>
         </div>
@@ -151,29 +194,41 @@ const Cards: React.FC = () => {
         </div>
         <div className="flex flex-col bg-[#232240] rounded-lg">
           <div className="grid grid-flow-col border-b border-b-[#9199E1] py-2">
-            <img
+            <Image
               src="/Logo Shinden.png"
+              width={64}
+              height={64}
+              objectFit="contain"
               className="h-16 justify-self-center"
               alt="Logo ARgg"
             />
           </div>
           <div className="grid grid-flow-row border-b border-b-[#9199E1] py-2">
-            <img
+            <Image
               src="/Logo Shinden.png"
+              width={64}
+              height={64}
+              objectFit="contain"
               className="h-16 justify-self-center"
               alt="Logo ARgg"
             />
           </div>
           <div className="grid grid-flow-row border-b border-b-[#9199E1] py-2">
-            <img
+            <Image
               src="/Logo Shinden.png"
+              width={64}
+              height={64}
+              objectFit="contain"
               className="h-16 justify-self-center"
               alt="Logo ARgg"
             />
           </div>
           <div className="grid grid-flow-row py-2">
-            <img
+            <Image
               src="/Logo Shinden.png"
+              width={64}
+              height={64}
+              objectFit="contain"
               className="h-16 justify-self-center"
               alt="Logo ARgg"
             />
