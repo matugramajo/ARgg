@@ -1,5 +1,5 @@
 import React from 'react';
-import Arg from '../components/logos';
+import { Arg } from './logos';
 
 const Navbar: React.FC = () => {
   return (
