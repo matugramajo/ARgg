@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import MenuJuegos from "./components/menujuegos";
 import Cards from "./components/cards";
 import Carousel from "./components/carousel";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <a>Próximos eventos</a>
       </div>
       <Carousel />
+      <Footer />
     </>
   );
 }
