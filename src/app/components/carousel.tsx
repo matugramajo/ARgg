@@ -20,7 +20,7 @@ const Carousel: React.FC = () => {
   };
 
   return (
-    <div className="relative w-full mb-14">
+    <div className="relative w-full md:mb-14 mb-8">
       <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
         {images.map((image, index) => (
           <div
@@ -39,7 +39,7 @@ const Carousel: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="absolute inset-0 flex items-center justify-between p-4 mx-24">
+      <div className="absolute inset-0 flex items-center justify-between p-4 md:mx-24">
         <button
           onClick={prevSlide}
           className="bg-white/30 dark:bg-gray-800/30 hover:bg-white/50 dark:hover:bg-gray-800/60 focus:ring-4 focus:ring-white dark:focus:ring-gray-800/70 rounded-full p-2"

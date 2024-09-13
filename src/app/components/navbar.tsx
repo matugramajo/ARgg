@@ -4,7 +4,7 @@ import { Arg } from "./logos";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-[#131313] border-gray-700">
+    <nav className="bg-[#131313] border-gray-700 hidden md:block">
       <div className="flex flex-wrap items-center justify-between mx-10 py-2">
         <a
           href="#"
@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
               width={100}
               height={50}
               objectFit="contain"
-              alt="Flowbite Logo"
+              alt="Logo ARgg"
             />
           </div>
         </a>
@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
                 href="#"
                 className="block py-2 px-3 rounded text-white hover:text-blue-500 text-xl"
               >
-                Torneos
+                Equipos
               </a>
             </li>
             <li>
@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
                 href="#"
                 className="block py-2 px-3 rounded text-white hover:text-blue-500 text-xl"
               >
-                Equipos
+                Jugadores
               </a>
             </li>
             <li>

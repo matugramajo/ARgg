@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
             href="#"
-            className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+            className="flex md:mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <div className="relative h-14 w-28">
               <Image
@@ -45,14 +45,14 @@ const Footer: React.FC = () => {
             </li>
           </ul>
         </div>
-        <hr className="my-6  sm:mx-auto border-gray-700 lg:my-8" />
-        <div className="flex justify-between">
+        <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+        <div className="flex flex-col md:flex-row justify-between">
           <div>
             <span className="block text-sm text-gray-400">
               Diseñado y desarrollado por Matilde Gramajo.
             </span>
           </div>
-          <div className="flex">
+          <div className="flex pt-4 md:pt-0">
             <div className="px-2">
               <X />
             </div>
