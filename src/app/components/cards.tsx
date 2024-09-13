@@ -8,9 +8,9 @@ const Cards: React.FC = () => {
         <div className="pb-3">
           <a>Proximos partidos</a>
         </div>
-        <div className="flex flex-col bg-[#232240] rounded-lg">
+        <div className="flex flex-col bg-[#232240] rounded-lg text-[#a1a1a1]">
           <div className="border-b border-b-[#9199E1] py-2">
-            <div className="flex justify-between px-2 text-base text-[#a1a1a1]">
+            <div className="flex justify-between px-2 text-base ">
               <div>05/09/2024, 11:30hs</div>
               <div>Counter-Strike 2</div>
             </div>
@@ -33,10 +33,10 @@ const Cards: React.FC = () => {
                 />
               </div>
             </div>
-            <div className="px-2 text-base text-[#a1a1a1]">BO3</div>
+            <div className="px-2 text-base ">BO3</div>
           </div>
           <div className="border-b border-b-[#9199E1] py-2">
-            <div className="flex justify-between px-2 text-base text-[#a1a1a1]">
+            <div className="flex justify-between px-2 text-base ">
               <div>05/09/2024, 11:30hs</div>
               <div>Counter-Strike 2</div>
             </div>
@@ -60,10 +60,10 @@ const Cards: React.FC = () => {
               </div>
             </div>
 
-            <div className="px-2 text-base text-[#a1a1a1]">BO3</div>
+            <div className="px-2 text-base ">BO3</div>
           </div>
           <div className="border-b border-b-[#9199E1] py-2">
-            <div className="flex justify-between px-2 text-base text-[#a1a1a1]">
+            <div className="flex justify-between px-2 text-base ">
               <div>05/09/2024, 11:30hs</div>
               <div>Counter-Strike 2</div>
             </div>
@@ -86,10 +86,10 @@ const Cards: React.FC = () => {
                 />
               </div>
             </div>
-            <div className="px-2 text-base text-[#a1a1a1]">BO3</div>
+            <div className="px-2 text-base ">BO3</div>
           </div>
           <div className="py-2">
-            <div className="flex justify-between px-2 text-base text-[#a1a1a1]">
+            <div className="flex justify-between px-2 text-base ">
               <div>05/09/2024, 11:30hs</div>
               <div>Counter-Strike 2</div>
             </div>
@@ -113,7 +113,7 @@ const Cards: React.FC = () => {
               </div>
             </div>
 
-            <div className="px-2 text-base text-[#a1a1a1]">BO3</div>
+            <div className="px-2 text-base ">BO3</div>
           </div>
         </div>
       </div>
@@ -124,12 +124,8 @@ const Cards: React.FC = () => {
         <div className="flex flex-col bg-[#232240] rounded-lg">
           <div className="border-b border-b-[#9199E1]">
             <div className="flex flex-col pl-2 py-2">
-              <div className="text-base text-[#a1a1a1] pb-1">
-                10 de septiembre 2024
-              </div>
-              <div className="text-base text-[#a1a1a1] pb-1">
-                Counter-Strike 2
-              </div>
+              <div className="text-base  pb-1">10 de septiembre 2024</div>
+              <div className="text-base  pb-1">Counter-Strike 2</div>
               <div className="text-xl py-1">
                 Como desactivar la toxicidad del CS2
               </div>
@@ -140,12 +136,8 @@ const Cards: React.FC = () => {
           </div>
           <div className="border-b border-b-[#9199E1]">
             <div className="flex flex-col pl-2 py-2">
-              <div className="text-base text-[#a1a1a1] pb-1">
-                10 de septiembre 2024
-              </div>
-              <div className="text-base text-[#a1a1a1] pb-1">
-                Counter-Strike 2
-              </div>
+              <div className="text-base  pb-1">10 de septiembre 2024</div>
+              <div className="text-base  pb-1">Counter-Strike 2</div>
               <div className="text-xl py-1">
                 Como desactivar la toxicidad del CS2
               </div>
@@ -156,12 +148,8 @@ const Cards: React.FC = () => {
           </div>
           <div className="border-b border-b-[#9199E1]">
             <div className="flex flex-col pl-2 py-2">
-              <div className="text-base text-[#a1a1a1] pb-1">
-                10 de septiembre 2024
-              </div>
-              <div className="text-base text-[#a1a1a1] pb-1">
-                Counter-Strike 2
-              </div>
+              <div className="text-base  pb-1">10 de septiembre 2024</div>
+              <div className="text-base  pb-1">Counter-Strike 2</div>
               <div className="text-xl py-1">
                 Como desactivar la toxicidad del CS2
               </div>
@@ -172,12 +160,8 @@ const Cards: React.FC = () => {
           </div>
           <div>
             <div className="flex flex-col pl-2 py-2">
-              <div className="text-base text-[#a1a1a1] pb-1">
-                10 de septiembre 2024
-              </div>
-              <div className="text-base text-[#a1a1a1] pb-1">
-                Counter-Strike 2
-              </div>
+              <div className="text-base  pb-1">10 de septiembre 2024</div>
+              <div className="text-base  pb-1">Counter-Strike 2</div>
               <div className="text-xl py-1">
                 Como desactivar la toxicidad del CS2
               </div>
