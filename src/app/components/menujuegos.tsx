@@ -16,8 +16,8 @@ import {
 
 const MenuJuegos: React.FC = () => {
   return (
-    <div className="hidden md:block">
-      <div className="flex justify-center py-14">
+    <div className="overflow-auto">
+      <div className="flex justify-center md:my-14 md:pb-5 overflow-x-auto custom-scrollbar mt-4">
         <div className="flex flex-row bg-[#232240] p-3 rounded-lg">
           <div className="px-2">
             <Joystick />

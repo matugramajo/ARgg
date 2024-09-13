@@ -117,7 +117,7 @@ const Cards: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="basis-2/5 md:pr-40 mt-8">
+      <div className="basis-2/5 md:pr-40 mt-8 md:mt-0">
         <div className="pb-3">
           <a>Ultimas discusiones</a>
         </div>
@@ -188,7 +188,7 @@ const Cards: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="basis-1/5 mt-8">
+      <div className="basis-1/5 mt-8 md:mt-0">
         <div className="pb-3">
           <a>Equipos mas visitados</a>
         </div>

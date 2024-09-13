@@ -4,7 +4,7 @@ import { Arg } from "./logos";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-[#131313] border-gray-700 hidden md:block">
+    <nav className="bg-[#131313] border-gray-700 hidden md:block sticky top-0 z-50">
       <div className="flex flex-wrap items-center justify-between mx-10 py-2">
         <a
           href="#"

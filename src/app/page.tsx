@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
       <NavbarMobile />
       <MenuJuegos />
-      <div className="text-3xl font-semibold ml-24">
+      <div className="text-3xl font-semibold ml-24 mt-4 md:mt-0">
         <a>Todos los juegos</a>
       </div>
       <Cards />

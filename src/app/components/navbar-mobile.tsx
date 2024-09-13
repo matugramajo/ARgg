@@ -11,7 +11,7 @@ const NavbarMobile: React.FC = () => {
   };
 
   return (
-    <nav className="bg-[#131313] border-gray-700 md:hidden">
+    <nav className="bg-[#131313] border-gray-700 md:hidden sticky top-0 z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 mb-5">
         <a
           href="#"
