@@ -5,10 +5,10 @@ import { X, Github, Discord, Linkedin } from "./logos";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-[#131313]">
-      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8 md:mt-14 mt-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
-            href="#"
+            href="/"
             className="flex md:mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <div className="relative h-14 w-28">
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-400">
             <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
+              <a href="/partidos" className="hover:underline me-4 md:me-6">
                 Partidos
               </a>
             </li>
