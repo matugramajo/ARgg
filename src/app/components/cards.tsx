@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Cards: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between mx-6 md:mx-24 mt-7 text-lg">
+    <div className="text-white flex flex-col md:flex-row justify-between mx-6 md:mx-24 mt-7 text-lg">
       <div className="basis-2/5 md:pr-40">
         <div className="pb-3">
           <a>Proximos partidos</a>
@@ -33,7 +33,6 @@ const Cards: React.FC = () => {
                 />
               </div>
             </div>
-            <div className="px-2 text-base ">BO3</div>
           </div>
           <div className="border-b border-b-[#9199E1] py-2">
             <div className="flex justify-between px-2 text-base ">
@@ -59,8 +58,6 @@ const Cards: React.FC = () => {
                 />
               </div>
             </div>
-
-            <div className="px-2 text-base ">BO3</div>
           </div>
           <div className="border-b border-b-[#9199E1] py-2">
             <div className="flex justify-between px-2 text-base ">
@@ -86,7 +83,6 @@ const Cards: React.FC = () => {
                 />
               </div>
             </div>
-            <div className="px-2 text-base ">BO3</div>
           </div>
           <div className="py-2">
             <div className="flex justify-between px-2 text-base ">
@@ -112,8 +108,6 @@ const Cards: React.FC = () => {
                 />
               </div>
             </div>
-
-            <div className="px-2 text-base ">BO3</div>
           </div>
         </div>
       </div>

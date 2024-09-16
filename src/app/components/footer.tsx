@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                 width={100}
                 height={50}
                 objectFit="contain"
-                alt="Flowbite Logo"
+                alt="ARgg Logo"
               />
             </div>
           </a>
@@ -54,16 +54,36 @@ const Footer: React.FC = () => {
           </div>
           <div className="flex pt-4 md:pt-0">
             <div className="px-2">
-              <X />
+              <a
+                href="https://x.com/_____matilde"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <X />
+              </a>
             </div>
             <div className="px-2">
-              <Github />
+              <a
+                href="https://github.com/matugramajo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github />
+              </a>
             </div>
             <div className="px-2">
-              <Discord />
+              <a href="#">
+                <Discord />
+              </a>
             </div>
             <div className="px-2">
-              <Linkedin />
+              <a
+                href="https://www.linkedin.com/in/matildegramajo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin />
+              </a>
             </div>
           </div>
         </div>

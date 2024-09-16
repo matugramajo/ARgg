@@ -42,13 +42,13 @@ const Carousel: React.FC = () => {
       <div className="absolute inset-0 flex items-center justify-between p-4 md:mx-24">
         <button
           onClick={prevSlide}
-          className="bg-white/30 dark:bg-gray-800/30 hover:bg-white/50 dark:hover:bg-gray-800/60 focus:ring-4 focus:ring-white dark:focus:ring-gray-800/70 rounded-full p-2"
+          className="bg-gray-800/30 hover:bg-gray-800/60 focus:ring-4 focus:ring-white focus:ring-gray-800/70 rounded-full p-2"
         >
           <span className="sr-only">Previous</span>❮
         </button>
         <button
           onClick={nextSlide}
-          className="bg-white/30 dark:bg-gray-800/30 hover:bg-white/50 dark:hover:bg-gray-800/60 focus:ring-4 focus:ring-white dark:focus:ring-gray-800/70 rounded-full p-2"
+          className="bg-gray-800/30 hover:bg-gray-800/60 focus:ring-4 focus:ring-white focus:ring-gray-800/70 rounded-full p-2"
         >
           <span className="sr-only">Next</span>❯
         </button>

@@ -22,7 +22,7 @@ const MenuJuegos: React.FC = () => {
   return (
     <div className="overflow-auto">
       <div
-        className="flex justify-start md:ml-8 ml-5 md:my-14 md:pb-5 pb-3 overflow-x-auto custom-scrollbar scroll-smooth"
+        className="flex justify-start md:ml-8 ml-5 md:mb-14 md:mt-8 md:pb-5 pb-3 overflow-x-auto custom-scrollbar scroll-smooth"
         style={{ scrollSnapType: "x mandatory" }}
       >
         <div

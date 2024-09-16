@@ -11,11 +11,11 @@ export default function Home() {
       <Navbar />
       <NavbarMobile />
       <MenuJuegos />
-      <div className="text-3xl font-semibold ml-24 mt-4 md:mt-0">
+      <div className="text-white text-3xl font-semibold ml-24 mt-4 md:mt-0">
         <a>Todos los juegos</a>
       </div>
       <Cards />
-      <div className="text-lg md:ml-24 md:pt-14 md:pb-10 mt-8 mx-6 pb-6">
+      <div className="text-white text-lg md:ml-24 md:pt-14 md:pb-10 mt-8 mx-6 pb-6">
         <a>Próximos eventos</a>
       </div>
       <Carousel />
