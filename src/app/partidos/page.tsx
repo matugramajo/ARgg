@@ -1,6 +1,5 @@
 import Navbar from "../components/navbar";
 import MenuJuegos from "../components/menujuegos";
-import Cards from "../components/cards";
 import Footer from "../components/footer";
 import NavbarMobile from "../components/navbar-mobile";
 import Partidos from "../components/partidos";
