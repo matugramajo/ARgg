@@ -2,9 +2,11 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const NavbarMobile: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -57,32 +59,39 @@ const NavbarMobile: React.FC = () => {
             <li>
               <a
                 href="/partidos"
-                className="block py-2 px-3 text-white  rounded bg-blue-600"
-                aria-current="page"
+                className={`block py-2 px-3 rounded text-xl ${
+                  pathname === "/partidos" ? "text-blue-500" : "text-white"
+                } hover:text-blue-500`}
               >
                 Partidos
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 px-3 rounded text-gray-400 hover:bg-gray-700 hover:text-white"
+                href="/equipos"
+                className={`block py-2 px-3 rounded text-xl ${
+                  pathname === "/equipos" ? "text-blue-500" : "text-white"
+                } hover:text-blue-500`}
               >
                 Equipos
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 px-3 rounded  text-gray-400 hover:bg-gray-700 hover:text-white"
+                href="/jugadores"
+                className={`block py-2 px-3 rounded text-xl ${
+                  pathname === "/jugadores" ? "text-blue-500" : "text-white"
+                } hover:text-blue-500`}
               >
                 Jugadores
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="block py-2 px-3 rounded text-gray-400 hover:bg-gray-700 hover:text-white"
+                href="/foros"
+                className={`block py-2 px-3 rounded text-xl ${
+                  pathname === "/foros" ? "text-blue-500" : "text-white"
+                } hover:text-blue-500`}
               >
                 Foros
               </a>

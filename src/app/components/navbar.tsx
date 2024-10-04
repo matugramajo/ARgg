@@ -1,9 +1,14 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import { Arg } from "./logos";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Navbar: React.FC = () => {
+  const pathname = usePathname();
+
   return (
     <nav className="bg-[#131313] border-gray-700 hidden md:block sticky top-0 z-50">
       <div className="flex flex-wrap items-center justify-between mx-10 py-2">
@@ -27,34 +32,42 @@ const Navbar: React.FC = () => {
             <li>
               <Link
                 href="/partidos"
-                className="block py-2 px-3 rounded text-white hover:text-blue-500 text-xl"
+                className={`block py-2 px-3 rounded text-xl ${
+                  pathname === "/partidos" ? "text-blue-500" : "text-white"
+                } hover:text-blue-500`}
               >
                 Partidos
               </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 rounded text-white hover:text-blue-500 text-xl"
+              <Link
+                href="/equipos"
+                className={`block py-2 px-3 rounded text-xl ${
+                  pathname === "/equipos" ? "text-blue-500" : "text-white"
+                } hover:text-blue-500`}
               >
                 Equipos
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 rounded text-white hover:text-blue-500 text-xl"
+              <Link
+                href="/jugadores"
+                className={`block py-2 px-3 rounded text-xl ${
+                  pathname === "/jugadores" ? "text-blue-500" : "text-white"
+                } hover:text-blue-500`}
               >
                 Jugadores
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 rounded text-white hover:text-blue-500 text-xl"
+              <Link
+                href="/foros"
+                className={`block py-2 px-3 rounded text-xl ${
+                  pathname === "/foros" ? "text-blue-500" : "text-white"
+                } hover:text-blue-500`}
               >
                 Foros
-              </a>
+              </Link>
             </li>
             <li>
               <button
