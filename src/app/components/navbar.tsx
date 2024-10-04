@@ -51,16 +51,6 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <Link
-                href="/jugadores"
-                className={`block py-2 px-3 rounded text-xl ${
-                  pathname === "/jugadores" ? "text-blue-500" : "text-white"
-                } hover:text-blue-500`}
-              >
-                Jugadores
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="/foros"
                 className={`block py-2 px-3 rounded text-xl ${
                   pathname === "/foros" ? "text-blue-500" : "text-white"

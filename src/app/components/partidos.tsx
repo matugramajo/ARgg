@@ -5,10 +5,7 @@ const Partidos: React.FC = () => {
   return (
     <div className="mt-5">
       <div className="md:mx-24 mx-5">
-        <div className="pb-3">
-          <a>Proximos partidos</a>
-        </div>
-        <div className="flex flex-col bg-[#232240] rounded-lg text-[#a1a1a1]">
+        <div className="flex flex-col bg-[#232240] border border-[#9199E1] rounded-lg text-[#a1a1a1]">
           <div className="border-b border-b-[#9199E1] py-2">
             <div className="flex justify-between px-2 text-base ">
               <div>05/09/2024, 11:30hs</div>

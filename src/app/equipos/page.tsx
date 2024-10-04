@@ -2,7 +2,7 @@ import Navbar from "../components/navbar";
 import MenuJuegos from "../components/menujuegos";
 import Footer from "../components/footer";
 import NavbarMobile from "../components/navbar-mobile";
-import Partidos from "../components/partidos";
+import Equipos from "../components/equipos";
 
 export default function Home() {
   return (
@@ -11,12 +11,12 @@ export default function Home() {
       <NavbarMobile />
       <MenuJuegos />
       <div className="flex ml-5 *:text-white text-3xl font-semibold md:ml-24 mt-4 md:mt-0">
-        <a className="">Partidos</a>
+        <a className="">Equipos</a>
       </div>
       <div className="flex ml-5 *:text-white text-lg md:ml-24 mt-4 md:mt-4">
         <a className="">Todos los juegos</a>
       </div>
-      <Partidos />
+      <Equipos />
       <Footer />
     </>
   );

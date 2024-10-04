@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Carousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = ["/CALZ.png", "/AGS.png", "/PGL.jpg"];
+  const images = ["/AGS.png", "/CALZ.png", "/PGL.jpg"];
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
