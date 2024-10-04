@@ -6,10 +6,6 @@ import Image from "next/image";
 const Equipos: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-14 md:mx-24 mx-5 mt-5">
       <div className="w-full max-w-sm border rounded-lg shadow bg-[#232240] border-[#9199E1]">
