@@ -22,23 +22,6 @@ const Footer: React.FC = () => {
               />
             </div>
           </a>
-          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium sm:mb-0 text-gray-400">
-            <li>
-              <a href="/partidos" className="hover:underline me-4 md:me-6">
-                Partidos
-              </a>
-            </li>
-            <li>
-              <a href="/equipos" className="hover:underline me-4 md:me-6">
-                Equipos
-              </a>
-            </li>
-            <li>
-              <a href="/foros" className="hover:underline">
-                Foros
-              </a>
-            </li>
-          </ul>
         </div>
         <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
         <div className="flex flex-col md:flex-row justify-between">
@@ -64,11 +47,6 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
               >
                 <Github />
-              </a>
-            </div>
-            <div className="px-2">
-              <a href="#">
-                <Discord />
               </a>
             </div>
             <div className="px-2">
