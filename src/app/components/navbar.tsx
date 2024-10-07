@@ -49,41 +49,6 @@ const Navbar: React.FC = () => {
                 Equipos
               </Link>
             </li>
-            <li>
-              <Link
-                href="/foros"
-                className={`block py-2 px-3 rounded text-xl ${
-                  pathname === "/foros" ? "text-blue-500" : "text-white"
-                } hover:text-blue-500`}
-              >
-                Foros
-              </Link>
-            </li>
-            <li>
-              <button
-                id="dropdownNavbarLink"
-                data-dropdown-toggle="dropdownNavbar"
-                className="flex items-center justify-between w-full md:w-auto rounded border-2 border-[#949ba3] p-1 text-white hover:text-blue-500 bg-[#494949]"
-              >
-                <Arg />
-                <a className="ms-2.5">Español</a>
-                <svg
-                  className="w-2.5 h-2.5 ms-2.5"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="m1 1 4 4 4-4"
-                  />
-                </svg>
-              </button>
-            </li>
           </ul>
         </div>
       </div>

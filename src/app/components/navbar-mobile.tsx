@@ -76,16 +76,6 @@ const NavbarMobile: React.FC = () => {
                 Equipos
               </a>
             </li>
-            <li>
-              <a
-                href="/foros"
-                className={`block py-2 px-3 rounded text-xl ${
-                  pathname === "/foros" ? "text-blue-500" : "text-white"
-                } hover:text-blue-500`}
-              >
-                Foros
-              </a>
-            </li>
           </ul>
         </div>
       </div>

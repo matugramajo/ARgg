@@ -29,17 +29,12 @@ const Footer: React.FC = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                Torneos
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
+              <a href="/equipos" className="hover:underline me-4 md:me-6">
                 Equipos
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="/foros" className="hover:underline">
                 Foros
               </a>
             </li>

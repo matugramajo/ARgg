@@ -16,7 +16,9 @@ export default function Home() {
       <div className="flex ml-5 *:text-white text-lg md:ml-24 mt-4 md:mt-4">
         <a className="">Todos los juegos</a>
       </div>
-      <Partidos />
+      <div className="md:mx-24 mx-5">
+        <Partidos />
+      </div>
       <Footer />
     </>
   );

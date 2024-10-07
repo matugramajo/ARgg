@@ -1,215 +1,178 @@
 import React from "react";
+import Partidos from "./partidos";
 import Image from "next/image";
 
 const Cards: React.FC = () => {
   return (
-    <div className="text-white flex flex-col md:flex-row justify-between mx-6 md:mx-24 mt-3 md:mt-7 text-lg">
-      <div className="basis-2/5 md:pr-40">
-        <div className="pb-3">
-          <a>Proximos partidos</a>
-        </div>
-        <div className="flex flex-col bg-[#232240] rounded-lg text-[#a1a1a1] border border-[#9199E1]">
-          <div className="border-b border-b-[#9199E1] py-2">
-            <div className="flex justify-between px-2 text-base ">
-              <div>05/09/2024, 11:30hs</div>
-              <div>Counter-Strike 2</div>
-            </div>
-            <div className="grid grid-cols-3 justify-between py-4">
-              <div className="justify-self-end relative w-16 h-16">
-                <Image
-                  objectFit="contain"
-                  layout="fill"
-                  src="/Logo Shinden.png"
-                  alt="Logo ARgg"
-                />
-              </div>
-              <div className="justify-self-center content-center">VS</div>
-              <div className="justify-self-start relative w-16 h-16">
-                <Image
-                  objectFit="contain"
-                  layout="fill"
-                  src="/Logo Velox.png"
-                  alt="Logo ARgg"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="border-b border-b-[#9199E1] py-2">
-            <div className="flex justify-between px-2 text-base ">
-              <div>05/09/2024, 11:30hs</div>
-              <div>Counter-Strike 2</div>
-            </div>
-            <div className="grid grid-cols-3 justify-between py-4">
-              <div className="justify-self-end relative w-16 h-16">
-                <Image
-                  objectFit="contain"
-                  layout="fill"
-                  src="/Logo Shinden.png"
-                  alt="Logo ARgg"
-                />
-              </div>
-              <div className="justify-self-center content-center">VS</div>
-              <div className="justify-self-start relative w-16 h-16">
-                <Image
-                  objectFit="contain"
-                  layout="fill"
-                  src="/Logo Velox.png"
-                  alt="Logo ARgg"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="border-b border-b-[#9199E1] py-2">
-            <div className="flex justify-between px-2 text-base ">
-              <div>05/09/2024, 11:30hs</div>
-              <div>Counter-Strike 2</div>
-            </div>
-            <div className="grid grid-cols-3 justify-between py-4">
-              <div className="justify-self-end relative w-16 h-16">
-                <Image
-                  objectFit="contain"
-                  layout="fill"
-                  src="/Logo Shinden.png"
-                  alt="Logo ARgg"
-                />
-              </div>
-              <div className="justify-self-center content-center">VS</div>
-              <div className="justify-self-start relative w-16 h-16">
-                <Image
-                  objectFit="contain"
-                  layout="fill"
-                  src="/Logo Velox.png"
-                  alt="Logo ARgg"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="py-2">
-            <div className="flex justify-between px-2 text-base ">
-              <div>05/09/2024, 11:30hs</div>
-              <div>Counter-Strike 2</div>
-            </div>
-            <div className="grid grid-cols-3 justify-between py-4">
-              <div className="justify-self-end relative w-16 h-16">
-                <Image
-                  objectFit="contain"
-                  layout="fill"
-                  src="/Logo Shinden.png"
-                  alt="Logo ARgg"
-                />
-              </div>
-              <div className="justify-self-center content-center">VS</div>
-              <div className="justify-self-start relative w-16 h-16">
-                <Image
-                  objectFit="contain"
-                  layout="fill"
-                  src="/Logo Velox.png"
-                  alt="Logo ARgg"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+    <div className="text-white grid grid-cols-2 gap-10 md:flex-row justify-between mx-6 md:mx-24 mt-3 md:mt-7 text-lg">
+      <div className="basis-1/2">
+        <a className="pb-3">Proximos partidos</a>
+        <Partidos />
       </div>
-      <div className="basis-2/5 md:pr-40 mt-8 md:mt-0">
-        <div className="pb-3">
-          <a>Ultimas discusiones</a>
-        </div>
-        <div className="flex flex-col bg-[#232240] rounded-lg  border border-[#9199E1]">
-          <div className="border-b border-b-[#9199E1]">
-            <div className="flex flex-col pl-2 py-2">
-              <div className="text-base  pb-1">10 de septiembre 2024</div>
-              <div className="text-base  pb-1">Counter-Strike 2</div>
-              <div className="text-xl py-1">
-                Como desactivar la toxicidad del CS2
+      <div className="basis-1/2 mt-8 md:mt-0">
+        <a className="pb-3">Equipos mas visitados</a>
+        <div className="grid grid-cols-2 gap-2s md:grid-cols-3 md:gap-10 mt-5 border rounded-lg bg-[#232240] border-[#9199E1] py-4">
+          <div className="w-full max-w-sm">
+            <div className="flex flex-col items-center py-4">
+              <div className="w-24 h-24 mb-3 relative">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Shinden.png"
+                  alt="Logo ARgg"
+                />
               </div>
-              <div className="text-base text-[#3d5bdf] underline pt-1">
-                <a href="#">Leer mas</a>
-              </div>
-            </div>
-          </div>
-          <div className="border-b border-b-[#9199E1]">
-            <div className="flex flex-col pl-2 py-2">
-              <div className="text-base  pb-1">10 de septiembre 2024</div>
-              <div className="text-base  pb-1">Counter-Strike 2</div>
-              <div className="text-xl py-1">
-                Como desactivar la toxicidad del CS2
-              </div>
-              <div className="text-base text-[#3d5bdf] underline pt-1">
-                <a href="#">Leer mas</a>
-              </div>
-            </div>
-          </div>
-          <div className="border-b border-b-[#9199E1]">
-            <div className="flex flex-col pl-2 py-2">
-              <div className="text-base  pb-1">10 de septiembre 2024</div>
-              <div className="text-base  pb-1">Counter-Strike 2</div>
-              <div className="text-xl py-1">
-                Como desactivar la toxicidad del CS2
-              </div>
-              <div className="text-base text-[#3d5bdf] underline pt-1">
-                <a href="#">Leer mas</a>
+              <h5 className="mb-1 text-xl font-medium text-white">Shinden</h5>
+              <div className="flex flex-col md:flex-row mt-2 md:mt-4">
+                <a
+                  href="#"
+                  className="mb-2 md:mb-0 inline-flex items-center p-2 md:px-4 md:py-2 md:mr-3 text-xs md:text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-500 hover:bg-blue-800 focus:ring-blue-900"
+                >
+                  Proximos partidos
+                </a>
+                <a
+                  href="#"
+                  className="justify-center inline-flex items-center p-2 md:px-4 md:py-2 text-xs md:text-sm font-medium focus:outline-none rounded-lg borderfocus:z-10 focus:ring-4  focus:ring-gray-700 bg-gray-700 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-800"
+                >
+                  Redes
+                </a>
               </div>
             </div>
           </div>
-          <div>
-            <div className="flex flex-col pl-2 py-2">
-              <div className="text-base  pb-1">10 de septiembre 2024</div>
-              <div className="text-base  pb-1">Counter-Strike 2</div>
-              <div className="text-xl py-1">
-                Como desactivar la toxicidad del CS2
+          <div className="w-full max-w-sm">
+            <div className="flex flex-col items-center py-4">
+              <div className="w-24 h-24 mb-3 relative">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Shinden.png"
+                  alt="Logo ARgg"
+                />
               </div>
-              <div className="text-base text-[#3d5bdf] underline pt-1">
-                <a href="#">Leer mas</a>
+              <h5 className="mb-1 text-xl font-medium text-white">Shinden</h5>
+              <div className="flex flex-col md:flex-row mt-2 md:mt-4">
+                <a
+                  href="#"
+                  className="mb-2 md:mb-0 inline-flex items-center p-2 md:px-4 md:py-2 md:mr-3 text-xs md:text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-500 hover:bg-blue-800 focus:ring-blue-900"
+                >
+                  Proximos partidos
+                </a>
+                <a
+                  href="#"
+                  className="justify-center inline-flex items-center p-2 md:px-4 md:py-2 text-xs md:text-sm font-medium focus:outline-none rounded-lg borderfocus:z-10 focus:ring-4  focus:ring-gray-700 bg-gray-700 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-800"
+                >
+                  Redes
+                </a>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="basis-1/5 mt-8 md:mt-0">
-        <div className="pb-3">
-          <a>Equipos mas visitados</a>
-        </div>
-        <div className="flex flex-col bg-[#232240] rounded-lg border border-[#9199E1]">
-          <div className="grid grid-flow-col border-b border-b-[#9199E1] py-2">
-            <Image
-              src="/Logo Shinden.png"
-              width={64}
-              height={64}
-              objectFit="contain"
-              className="h-16 justify-self-center"
-              alt="Logo ARgg"
-            />
+          <div className="w-full max-w-sm">
+            <div className="flex flex-col items-center py-4">
+              <div className="w-24 h-24 mb-3 relative">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Shinden.png"
+                  alt="Logo ARgg"
+                />
+              </div>
+              <h5 className="mb-1 text-xl font-medium text-white">Shinden</h5>
+              <div className="flex flex-col md:flex-row mt-2 md:mt-4">
+                <a
+                  href="#"
+                  className="mb-2 md:mb-0 inline-flex items-center p-2 md:px-4 md:py-2 md:mr-3 text-xs md:text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-500 hover:bg-blue-800 focus:ring-blue-900"
+                >
+                  Proximos partidos
+                </a>
+                <a
+                  href="#"
+                  className="justify-center inline-flex items-center p-2 md:px-4 md:py-2 text-xs md:text-sm font-medium focus:outline-none rounded-lg borderfocus:z-10 focus:ring-4  focus:ring-gray-700 bg-gray-700 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-800"
+                >
+                  Redes
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="grid grid-flow-row border-b border-b-[#9199E1] py-2">
-            <Image
-              src="/Logo Shinden.png"
-              width={64}
-              height={64}
-              objectFit="contain"
-              className="h-16 justify-self-center"
-              alt="Logo ARgg"
-            />
+          <div className="w-full max-w-sm">
+            <div className="flex flex-col items-center py-4">
+              <div className="w-24 h-24 mb-3 relative">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Shinden.png"
+                  alt="Logo ARgg"
+                />
+              </div>
+              <h5 className="mb-1 text-xl font-medium text-white">Shinden</h5>
+              <div className="flex flex-col md:flex-row mt-2 md:mt-4">
+                <a
+                  href="#"
+                  className="mb-2 md:mb-0 inline-flex items-center p-2 md:px-4 md:py-2 md:mr-3 text-xs md:text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-500 hover:bg-blue-800 focus:ring-blue-900"
+                >
+                  Proximos partidos
+                </a>
+                <a
+                  href="#"
+                  className="justify-center inline-flex items-center p-2 md:px-4 md:py-2 text-xs md:text-sm font-medium focus:outline-none rounded-lg borderfocus:z-10 focus:ring-4  focus:ring-gray-700 bg-gray-700 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-800"
+                >
+                  Redes
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="grid grid-flow-row border-b border-b-[#9199E1] py-2">
-            <Image
-              src="/Logo Shinden.png"
-              width={64}
-              height={64}
-              objectFit="contain"
-              className="h-16 justify-self-center"
-              alt="Logo ARgg"
-            />
+          <div className="w-full max-w-sm">
+            <div className="flex flex-col items-center py-4">
+              <div className="w-24 h-24 mb-3 relative">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Shinden.png"
+                  alt="Logo ARgg"
+                />
+              </div>
+              <h5 className="mb-1 text-xl font-medium text-white">Shinden</h5>
+              <div className="flex flex-col md:flex-row mt-2 md:mt-4">
+                <a
+                  href="#"
+                  className="mb-2 md:mb-0 inline-flex items-center p-2 md:px-4 md:py-2 md:mr-3 text-xs md:text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-500 hover:bg-blue-800 focus:ring-blue-900"
+                >
+                  Proximos partidos
+                </a>
+                <a
+                  href="#"
+                  className="justify-center inline-flex items-center p-2 md:px-4 md:py-2 text-xs md:text-sm font-medium focus:outline-none rounded-lg borderfocus:z-10 focus:ring-4  focus:ring-gray-700 bg-gray-700 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-800"
+                >
+                  Redes
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="grid grid-flow-row py-2">
-            <Image
-              src="/Logo Shinden.png"
-              width={64}
-              height={64}
-              objectFit="contain"
-              className="h-16 justify-self-center"
-              alt="Logo ARgg"
-            />
+          <div className="w-full max-w-sm">
+            <div className="flex flex-col items-center py-4">
+              <div className="w-24 h-24 mb-3 relative">
+                <Image
+                  objectFit="contain"
+                  layout="fill"
+                  src="/Logo Shinden.png"
+                  alt="Logo ARgg"
+                />
+              </div>
+              <h5 className="mb-1 text-xl font-medium text-white">Shinden</h5>
+              <div className="flex flex-col md:flex-row mt-2 md:mt-4">
+                <a
+                  href="#"
+                  className="mb-2 md:mb-0 inline-flex items-center p-2 md:px-4 md:py-2 md:mr-3 text-xs md:text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-500 hover:bg-blue-800 focus:ring-blue-900"
+                >
+                  Proximos partidos
+                </a>
+                <a
+                  href="#"
+                  className="justify-center inline-flex items-center p-2 md:px-4 md:py-2 text-xs md:text-sm font-medium focus:outline-none rounded-lg borderfocus:z-10 focus:ring-4  focus:ring-gray-700 bg-gray-700 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-800"
+                >
+                  Redes
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
