@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { X, Github, Discord, Linkedin } from "./logos";
+import { X, Github, Linkedin } from "./logos";
 
 const Footer: React.FC = () => {
   return (
