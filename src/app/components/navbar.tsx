@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
 
   return (
     <div className="hidden md:block sticky top-0 z-50 mb-5">
-      <nav className="bg-[#131313cc] border-gray-700 backdrop-blur-lg">
+      <nav className="bg-[#131313cc] border-gray-700 backdrop-blur-lg pt-4">
         <div className="flex flex-col items-center">
           <a
             href="/"
