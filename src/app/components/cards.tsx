@@ -10,9 +10,9 @@ const Cards: React.FC = () => {
       </div>
       <div className="text-white grid grid-cols-1 md:grid-cols-2 md:gap-10 md:flex-row justify-between mx-6 md:mx-24 mt-3 md:mt-7 text-lg">
         <div className="pb-3 flex md:hidden">Proximos partidos</div>
-        <div className="basis-1/2 bg-[#232240] border border-[#9199E1] rounded-lg mb-5 md:mb-0">
-          <div className="grid grid-cols-1 text-[#a1a1a1] divide-y divide-[#9199E1]">
-            <div className="py-2">
+        <div className="basis-1/2 mb-5 md:mb-0">
+          <div className="grid grid-cols-1 gap-3 text-[#a1a1a1]">
+            <div className="py-2 border border-[#9199E1] rounded-lg bg-[#232240]">
               <div className="flex justify-between px-2 text-base ">
                 <div>05/09/2024, 11:30hs</div>
                 <div>Counter-Strike 2</div>
@@ -37,7 +37,7 @@ const Cards: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="py-2">
+            <div className="py-2 border border-[#9199E1] rounded-lg bg-[#232240]">
               <div className="flex justify-between px-2 text-base ">
                 <div>05/09/2024, 11:30hs</div>
                 <div>Counter-Strike 2</div>
@@ -62,7 +62,7 @@ const Cards: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="py-2">
+            <div className="py-2 border border-[#9199E1] rounded-lg bg-[#232240]">
               <div className="flex justify-between px-2 text-base ">
                 <div>05/09/2024, 11:30hs</div>
                 <div>Counter-Strike 2</div>
@@ -87,7 +87,7 @@ const Cards: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="py-2">
+            <div className="py-2 border border-[#9199E1] rounded-lg bg-[#232240]">
               <div className="flex justify-between px-2 text-base ">
                 <div>05/09/2024, 11:30hs</div>
                 <div>Counter-Strike 2</div>
@@ -115,9 +115,9 @@ const Cards: React.FC = () => {
           </div>
         </div>
         <div className="pb-3 flex md:hidden">Equipos mas visitados</div>
-        <div className="basis-1/2 bg-[#232240] border border-[#9199E1] rounded-lg">
-          <div className="grid grid-cols-2 md:grid-cols-3 py-3">
-            <div className="w-full max-w-sm border-b border-[#9199E1]">
+        <div className="basis-1/2">
+          <div className="grid grid-cols-2 gap-5 md:grid-cols-3">
+            <div className="w-full max-w-sm border border-[#9199E1] rounded-lg bg-[#232240]">
               <div className="flex flex-col items-center py-4">
                 <div className="w-24 h-24 mb-3 relative">
                   <Image
@@ -144,7 +144,7 @@ const Cards: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full max-w-sm border-b border-l md:border-x border-[#9199E1]">
+            <div className="w-full max-w-sm border border-[#9199E1] rounded-lg bg-[#232240]">
               <div className="flex flex-col items-center py-4">
                 <div className="w-24 h-24 mb-3 relative">
                   <Image
@@ -171,7 +171,7 @@ const Cards: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full max-w-sm border-b border-r md:border-r-0 border-[#9199E1]">
+            <div className="w-full max-w-sm border border-[#9199E1] rounded-lg bg-[#232240]">
               <div className="flex flex-col items-center py-4">
                 <div className="w-24 h-24 mb-3 relative">
                   <Image
@@ -198,7 +198,7 @@ const Cards: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full max-w-sm border-b md:border-b-0 border-[#9199E1]">
+            <div className="w-full max-w-sm border border-[#9199E1] rounded-lg bg-[#232240]">
               <div className="flex flex-col items-center py-4">
                 <div className="w-24 h-24 mb-3 relative">
                   <Image
@@ -225,7 +225,7 @@ const Cards: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full max-w-sm border-r md:border-x border-[#9199E1]">
+            <div className="w-full max-w-sm border border-[#9199E1] rounded-lg bg-[#232240]">
               <div className="flex flex-col items-center py-4">
                 <div className="w-24 h-24 mb-3 relative">
                   <Image
@@ -252,7 +252,7 @@ const Cards: React.FC = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full max-w-sm">
+            <div className="w-full max-w-sm border border-[#9199E1] rounded-lg bg-[#232240]">
               <div className="flex flex-col items-center py-4">
                 <div className="w-24 h-24 mb-3 relative">
                   <Image

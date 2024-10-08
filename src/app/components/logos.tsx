@@ -4,7 +4,7 @@ const Joystick: React.FC = () => {
   return (
     <div className="group">
       <svg
-        width="40"
+        width="25"
         height="25"
         viewBox="0 0 40 25"
         fill="none"
@@ -23,8 +23,8 @@ const Joystick: React.FC = () => {
 const LoL: React.FC = () => {
   return (
     <svg
-      width="34"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 34 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +43,8 @@ const LoL: React.FC = () => {
 const CS: React.FC = () => {
   return (
     <svg
-      width="34"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 34 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -61,8 +61,8 @@ const CS: React.FC = () => {
 const Valo: React.FC = () => {
   return (
     <svg
-      width="44"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 44 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -79,8 +79,8 @@ const Valo: React.FC = () => {
 const Dota: React.FC = () => {
   return (
     <svg
-      width="35"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 35 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -94,8 +94,8 @@ const Dota: React.FC = () => {
 const Fifa: React.FC = () => {
   return (
     <svg
-      width="39"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 39 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -117,8 +117,8 @@ const Fifa: React.FC = () => {
 const R6: React.FC = () => {
   return (
     <svg
-      width="20"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 20 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -135,8 +135,8 @@ const R6: React.FC = () => {
 const Rocket: React.FC = () => {
   return (
     <svg
-      width="34"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 34 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -178,8 +178,8 @@ const Rocket: React.FC = () => {
 const PUBG: React.FC = () => {
   return (
     <svg
-      width="54"
-      height="36"
+      width="40"
+      height="25"
       viewBox="0 0 54 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -196,8 +196,8 @@ const PUBG: React.FC = () => {
 const MobileLegends: React.FC = () => {
   return (
     <svg
-      width="34"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 34 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -216,8 +216,8 @@ const MobileLegends: React.FC = () => {
 const Fortnite: React.FC = () => {
   return (
     <svg
-      width="39"
-      height="41"
+      width="25"
+      height="25"
       viewBox="0 0 39 41"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -234,8 +234,8 @@ const Fortnite: React.FC = () => {
 const Apex: React.FC = () => {
   return (
     <svg
-      width="36"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 36 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -249,8 +249,8 @@ const Apex: React.FC = () => {
 const SC: React.FC = () => {
   return (
     <svg
-      width="36"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 36 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -274,8 +274,8 @@ const SC: React.FC = () => {
 const AoE: React.FC = () => {
   return (
     <svg
-      width="71"
-      height="36"
+      width="40"
+      height="25"
       viewBox="0 0 71 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -291,8 +291,8 @@ const AoE: React.FC = () => {
 const Overwatch: React.FC = () => {
   return (
     <svg
-      width="36"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 36 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -307,8 +307,8 @@ const Overwatch: React.FC = () => {
 const ArenaOf: React.FC = () => {
   return (
     <svg
-      width="31"
-      height="36"
+      width="25"
+      height="25"
       viewBox="0 0 31 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

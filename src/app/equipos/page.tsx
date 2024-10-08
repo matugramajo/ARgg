@@ -1,5 +1,4 @@
 import Navbar from "../components/navbar";
-import MenuJuegos from "../components/menujuegos";
 import Footer from "../components/footer";
 import NavbarMobile from "../components/navbar-mobile";
 import Equipos from "../components/equipos";
@@ -9,7 +8,6 @@ export default function Home() {
     <>
       <Navbar />
       <NavbarMobile />
-      <MenuJuegos />
       <div className="flex ml-5 *:text-white text-3xl font-semibold md:ml-24 mt-4 md:mt-0">
         <a className="">Equipos</a>
       </div>
