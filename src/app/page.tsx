@@ -3,6 +3,7 @@ import Carousel from "./components/carousel";
 import Footer from "./components/footer";
 import NavbarMobile from "./components/navbar-mobile";
 import Partido from "./components/partido";
+import Equipo from "./components/equipo";
 
 export default function Home() {
   return (
@@ -12,10 +13,13 @@ export default function Home() {
       <a className="flex ml-5 *:text-white text-3xl font-semibold md:ml-24 mt-4 md:mt-0">
         Todo
       </a>
-      <a className="flex ml-5 *:text-white text-lg md:ml-24 mt-4 md:mt-4">
+      <a className="flex ml-5 *:text-white text-lg md:ml-24">
         Todos los juegos
       </a>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-5 md:mx-24 md:my-5 mt-3">
+      <a className="flex ml-5 *:text-white text-xl font-semibold md:ml-24 mt-4">
+        Proximos partidos
+      </a>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-5 md:mx-24 md:my-3 mt-3">
         <Partido />
         <Partido />
         <Partido />
@@ -23,7 +27,18 @@ export default function Home() {
         <Partido />
         <Partido />
       </div>
-      <div className="text-2xl font-bold mb-6 md:ml-24">Proximos Eventos</div>
+      <a className="flex ml-5 *:text-white text-xl font-semibold md:ml-24 mt-7">
+        Equipos mas vistos
+      </a>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16 mx-5 md:mx-24 md:mb-5 mt-3">
+        <Equipo />
+        <Equipo />
+        <Equipo />
+        <Equipo />
+      </div>
+      <a className="flex ml-5 *:text-white text-xl font-semibold md:ml-24 mt-7">
+        Proximos eventos
+      </a>
       <Carousel />
       <Footer />
     </>
