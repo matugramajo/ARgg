@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
             href="/"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <div className="relative h-24 w-44">
+            <div className="relative h-20 w-40">
               <Image
                 src="/Logo-ARgg.png"
                 layout="responsive"
@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
             className="hidden w-full md:block md:w-auto font-sans"
             id="navbar-dropdown"
           >
-            <ul className="flex font-medium p-4 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 border-gray-700">
+            <ul className="flex font-medium px-4 pb-4 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 border-gray-700">
               <li>
                 <Link
                   href="/"
