@@ -30,7 +30,7 @@ export default function Home() {
       <a className="flex ml-5 *:text-white text-xl font-semibold md:ml-24 mt-7">
         Equipos mas vistos
       </a>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16 mx-5 md:mx-24 md:mb-5 mt-3">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 lg:gap-16 mx-5 md:mx-24 md:mb-5 mt-3">
         <Equipo />
         <Equipo />
         <Equipo />
