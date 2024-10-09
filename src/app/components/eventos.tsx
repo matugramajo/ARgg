@@ -33,9 +33,6 @@ const Eventos: React.FC = () => {
             <MapPin className="w-4 h-4 mr-1 self-center" />
             Buenos Aires
           </div>
-          <div className="text-white">
-            <Countdown targetDate="2024-10-11T00:00:00" />
-          </div>
         </div>
       </div>
       <div className="flex flex-col bg-[#1a1931] border border-[#9199E1] rounded-md">
@@ -61,9 +58,6 @@ const Eventos: React.FC = () => {
           <div className="flex flex-row justify-self-center content-center text-base text-gray-400 py-1">
             <MapPin className="w-4 h-4 mr-1 self-center" />
             Buenos Aires
-          </div>
-          <div className="text-white">
-            <Countdown targetDate="2024-11-09T00:00:00" />
           </div>
         </div>
       </div>
@@ -91,9 +85,6 @@ const Eventos: React.FC = () => {
           <div className="flex flex-row justify-self-center content-center text-base text-gray-400 py-1">
             <MapPin className="w-4 h-4 mr-1 self-center" />
             Buenos Aires
-          </div>
-          <div className="text-white">
-            <Countdown targetDate="2025-02-10T00:00:00" />
           </div>
         </div>
       </div>

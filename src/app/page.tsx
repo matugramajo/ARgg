@@ -13,7 +13,7 @@ export default function Home() {
       <a className="flex ml-5 text-white text-3xl font-semibold md:ml-24 mt-4 md:mt-0 justify-center md:justify-start">
         Todo
       </a>
-      <a className="flex ml-5 text-white md:text-lg text-base md:ml-24 justify-center md:justify-start">
+      <a className="hidden md:flex ml-5 text-white md:text-lg text-base md:ml-24 justify-center md:justify-start">
         Todos los juegos
       </a>
       <a className="flex ml-5 text-white text-xl font-semibold md:ml-24 mt-4">
