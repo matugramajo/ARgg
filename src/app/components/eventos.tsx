@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { Calendar, MapPin } from "lucide-react";
-import Countdown from "./countdown";
 
 const Eventos: React.FC = () => {
   return (
