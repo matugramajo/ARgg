@@ -3,6 +3,7 @@ import Footer from "./components/footer";
 import NavbarMobile from "./components/navbar-mobile";
 import Partido from "./components/partido";
 import Equipo from "./components/equipo";
+import Eventos from "./components/eventos";
 
 export default function Home() {
   return (
@@ -38,7 +39,7 @@ export default function Home() {
       <a className="flex ml-5 text-white text-xl font-semibold md:ml-24 md:mt-20 mt-8">
         Proximos eventos
       </a>
-
+      <Eventos />
       <Footer />
     </>
   );

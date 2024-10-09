@@ -18,9 +18,11 @@ const Partido: React.FC = () => {
               alt="Logo ARgg"
             />
           </div>
-          <div className="pr-2 pt-1">Shinden</div>
+          <div className="pr-2 pt-1 text-white">Shinden</div>
         </div>
-        <div className="justify-self-center content-center text-2xl">VS</div>
+        <div className="justify-self-center content-center text-2xl text-white">
+          VS
+        </div>
         <div className="grid grid-cols-1 justify-self-start relative">
           <div className="relative w-16 h-16">
             <Image
@@ -30,20 +32,20 @@ const Partido: React.FC = () => {
               alt="Logo ARgg"
             />
           </div>
-          <div className="pl-5 pt-2">Velox</div>
+          <div className="pl-5 pt-2 text-white">Velox</div>
         </div>
       </div>
       <div className="grid grid-cols-2 justify-between ">
-        <div className="flex flex-row justify-self-center content-center text-sm text-[#c5c5c5]">
+        <div className="flex flex-row justify-self-center content-center text-sm text-gray-400">
           <Calendar className="w-4 h-4 mr-1 self-center" />
           Oct 22, 2924
         </div>
-        <div className="flex flex-row justify-self-center content-center text-sm text-[#c5c5c5]">
+        <div className="flex flex-row justify-self-center content-center text-sm text-gray-400">
           <Clock className="w-4 h-4 mr-1 self-center" />
           08:00 PM
         </div>
       </div>
-      <div className="flex justify-center pt-2">10d 3h 42m</div>
+      <div className="flex justify-center pt-2 text-white">10d 3h 42m</div>
     </div>
   );
 };
