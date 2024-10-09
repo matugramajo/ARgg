@@ -39,6 +39,7 @@ const Navbar: React.FC = () => {
                   className={`block py-2 px-3 rounded text-xl ${
                     pathname === "/" ? "text-blue-500" : "text-white"
                   } hover:text-blue-500`}
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   Todo
                 </Link>
@@ -49,6 +50,7 @@ const Navbar: React.FC = () => {
                   className={`block py-2 px-3 rounded text-xl ${
                     pathname === "/partidos" ? "text-blue-500" : "text-white"
                   } hover:text-blue-500`}
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   Partidos
                 </Link>
@@ -59,6 +61,7 @@ const Navbar: React.FC = () => {
                   className={`block py-2 px-3 rounded text-xl ${
                     pathname === "/equipos" ? "text-blue-500" : "text-white"
                   } hover:text-blue-500`}
+                  onClick={() => window.scrollTo(0, 0)}
                 >
                   Equipos
                 </Link>
