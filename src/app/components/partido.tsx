@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Calendar, Clock } from "lucide-react";
+import Countdown from "./countdown";
 
 const Partido: React.FC = () => {
   return (
@@ -38,14 +39,16 @@ const Partido: React.FC = () => {
       <div className="grid grid-cols-2 justify-between ">
         <div className="flex flex-row justify-self-center content-center text-sm text-gray-400">
           <Calendar className="w-4 h-4 mr-1 self-center" />
-          Oct 22, 2924
+          Oct 22, 2024
         </div>
         <div className="flex flex-row justify-self-center content-center text-sm text-gray-400">
           <Clock className="w-4 h-4 mr-1 self-center" />
           08:00 PM
         </div>
       </div>
-      <div className="flex justify-center pt-2 text-white">10d 3h 42m</div>
+      <div className="flex justify-center pt-2 text-white">
+        <Countdown targetDate="2024-10-22T00:00:00" />
+      </div>
     </div>
   );
 };

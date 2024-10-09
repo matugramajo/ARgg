@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Calendar, MapPin } from "lucide-react";
+import Countdown from "./countdown";
 
 const Eventos: React.FC = () => {
   return (
@@ -32,7 +33,9 @@ const Eventos: React.FC = () => {
             <MapPin className="w-4 h-4 mr-1 self-center" />
             Buenos Aires
           </div>
-          <div className="text-white">10d 3h 42m</div>
+          <div className="text-white">
+            <Countdown targetDate="2024-10-11T00:00:00" />
+          </div>
         </div>
       </div>
       <div className="flex flex-col bg-[#1a1931] border border-[#9199E1] rounded-md">
@@ -59,7 +62,9 @@ const Eventos: React.FC = () => {
             <MapPin className="w-4 h-4 mr-1 self-center" />
             Buenos Aires
           </div>
-          <div className="text-white">10d 3h 42m</div>
+          <div className="text-white">
+            <Countdown targetDate="2024-11-09T00:00:00" />
+          </div>
         </div>
       </div>
       <div className="flex flex-col bg-[#1a1931] border border-[#9199E1] rounded-md">
@@ -87,7 +92,9 @@ const Eventos: React.FC = () => {
             <MapPin className="w-4 h-4 mr-1 self-center" />
             Buenos Aires
           </div>
-          <div className="text-white">10d 3h 42m</div>
+          <div className="text-white">
+            <Countdown targetDate="2025-02-10T00:00:00" />
+          </div>
         </div>
       </div>
     </div>
