@@ -11,7 +11,6 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
     days: 0,
     hours: 0,
     minutes: 0,
-    seconds: 0,
   });
 
   useEffect(() => {
@@ -25,9 +24,8 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
         (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
       );
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      setTimeLeft({ days, hours, minutes, seconds });
+      setTimeLeft({ days, hours, minutes });
 
       if (distance < 0) {
         clearInterval(interval);
@@ -39,7 +37,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 
   return (
     <div className="text-white">
-      {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
+      {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m
     </div>
   );
 };
