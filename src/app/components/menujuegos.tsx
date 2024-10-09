@@ -12,8 +12,6 @@ import {
   MobileLegends,
   Fortnite,
   Apex,
-  SC,
-  AoE,
   Overwatch,
   ArenaOf,
 } from "./logos";
@@ -100,18 +98,6 @@ const MenuJuegos: React.FC = () => {
             style={{ scrollSnapAlign: "start" }}
           >
             <Apex />
-          </div>
-          <div
-            className="px-10 self-center"
-            style={{ scrollSnapAlign: "start" }}
-          >
-            <SC />
-          </div>
-          <div
-            className="px-10 self-center"
-            style={{ scrollSnapAlign: "start" }}
-          >
-            <AoE />
           </div>
           <div
             className="px-10 self-center"

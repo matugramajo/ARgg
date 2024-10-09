@@ -34,7 +34,7 @@ const Eventos: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col bg-[#1a1931] border border-[#9199E1] rounded-md">
+      <div className="flex flex-col justify-between bg-[#1a1931] border border-[#9199E1] rounded-md">
         <div>
           <Image
             src="/CALZ.png"
@@ -44,12 +44,14 @@ const Eventos: React.FC = () => {
             className="w-full h-48 object-cover rounded-t-md"
           />
         </div>
+        <div className="text-2xl text-white font-semibold px-4 py-2">
+          Retro Start
+        </div>
+        <div className="text-[#adb3d1] text-base text-start py-2 px-4">
+          La mayor experiencia dedicada al Retro Gaming! toda la magia y sentir
+          de las generaciones pasadas, juntas en un solo lugar.
+        </div>
         <div className="flex flex-col px-4 py-3">
-          <div className="text-2xl text-white font-semibold">Retro Start</div>
-          <div className="text-[#adb3d1] text-base text-start py-2">
-            La mayor experiencia dedicada al Retro Gaming! toda la magia y
-            sentir de las generaciones pasadas, juntas en un solo lugar.
-          </div>
           <div className="flex flex-row justify-self-center content-center text-base text-gray-400">
             <Calendar className="w-4 h-4 mr-1 self-center" />
             Nov 09, 2024
